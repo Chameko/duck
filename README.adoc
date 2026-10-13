@@ -1,0 +1,38 @@
+= Duck
+
+_The editor that quacks._
+
+== What
+
+Duck is an editor inspired by kakoune, xi and emacs
+
+- Multiple selections and cursors
+- Terminal first
+- Endlessly expandable
+- Write with friends :)
+
+== Why
+
+Kakoune has multiple selections that make it easy to visually see what your doing
+
+Kakoune's plugins are limited as it uses an bash, its own language and its environment
+
+Emacs embraces the fact that given a plugin interface, someone is going to add the kitchen sink
+
+Emacs nowadays is less terminal and more gui (in my experience)
+
+Xi had an interesting look at the internals of an editor and why they matter
+
+Xi is not being actively developed
+
+Helix uses a mix of vim and kakoune which I found to not really work
+
+== So for Duck
+
+Multiple cursors and selection:: This makes it easy to understand edits and is familiar to existing models
+
+Terminal first:: The terminal is magic these days. It can even show images!
+
+Expandable:: A robust and complete plugin system so you can write your kitchen sink
+
+Write with friends:: Coding is fun with friends, including the invisible elves in your computer known as LSP servers
